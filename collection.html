@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections - Malin Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="navbar__logo">MALIN</h1>
+    <nav class="navbar__nav">
+      <ul class="navbar__links">
+        <li><a href="home.html" class="navbar__link">Home</a></li>
+        <li><a href="contact.html" class="navbar__link">Contact</a></li>
+        <li><a href="collection.html" class="navbar__link navbar__link--active">Collections</a></li>
+        <li><a href="about.html" class="navbar__link">About</a></li>
+        <li><a href="feedback.html" class="navbar__link">Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="navbar__actions">
+      <a href="cart.html" class="navbar__icon cart-badge" id="cartNavIcon">&#128722;<span class="cart-badge__count" id="cartCount" style="display:none">0</span></a>
+      <a href="#menu" class="navbar__icon">&#9776;</a>
+    </div>
+  </header>
+
+  <!-- COLLECTIONS HERO SECTION -->
+  <section id="collections" class="hero">
+    <div class="hero__content">
+      <h2 class="hero__title">OUR<br>COLLECTIONS</h2>
+      <p class="hero__desc">Browse through our hoodies, t-shirts's,shoes and sweatpants — all available in store and in all sizes.</p>
+    </div>
+  </section>
+
+  <!-- HOODIES COLLECTION -->
+  <section class="collection">
+    <div class="collection__header">
+      <h2 class="section-title">HOODIES</h2>
+    </div>
+    <div class="collections__grid">
+      <article class="product-card" data-id="hoodie-blue" data-name="Classic Blue Hoodie" data-price="350" data-img="images/blue hoodie.jpg" data-category="Hoodie">
+        <div class="product-card__img-wrap">
+          <img src="images/blue hoodie.jpg" alt="Hoodie 1" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Classic Blue Hoodie</h3>
+          <p class="product-card__price">P 350</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="hoodie-grey" data-name="Grey Hoodie" data-price="350" data-img="images/grey hoodie.jpg" data-category="Hoodie">
+        <div class="product-card__img-wrap">
+          <img src="images/grey hoodie.jpg" alt="Hoodie 2" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Grey Hoodie</h3>
+          <p class="product-card__price">P 350</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="hoodie-yellow" data-name="Yellow Hoodie" data-price="350" data-img="images/yellow hoodie.jpeg" data-category="Hoodie">
+        <div class="product-card__img-wrap">
+          <img src="images/yellow hoodie.jpeg" alt="Hoodie 3" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Yellow Hoodie</h3>
+          <p class="product-card__price">P 350</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="hoodie-black-graphic" data-name="Black Graphic Hoodie" data-price="350" data-img="images/black graphic hoodie.jpg" data-category="Hoodie">
+        <div class="product-card__img-wrap">
+          <img src="images/black graphic hoodie.jpg" alt="Hoodie 4" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Black Graphic Hoodie</h3>
+          <p class="product-card__price">P 350</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- T-SHIRTS COLLECTION -->
+  <section class="collection">
+    <div class="collection__header">
+      <h2 class="section-title">T-SHIRTS</h2>
+    </div>
+    <div class="collections__grid">
+      <article class="product-card" data-id="tshirt-red" data-name="Red T-Shirt" data-price="250" data-img="images/red t-shirt.jpeg" data-category="T-Shirt">
+        <div class="product-card__img-wrap">
+          <img src="images/red t-shirt.jpeg" alt="T-shirt 1" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Red T-Shirt</h3>
+          <p class="product-card__price">P 250</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="tshirt-graphic" data-name="Graphic T-Shirt" data-price="250" data-img="images/graphic t-shirt.jpg" data-category="T-Shirt">
+        <div class="product-card__img-wrap">
+          <img src="images/graphic t-shirt.jpg" alt="T-shirt 2" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Graphic T-Shirt</h3>
+          <p class="product-card__price">P 250</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="tshirt-formal" data-name="Formalwear T-Shirt" data-price="250" data-img="images/formal t-shirt.jpg" data-category="T-Shirt">
+        <div class="product-card__img-wrap">
+          <img src="images/formal t-shirt.jpg" alt="T-shirt 3" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Formalwear T-Shirt</h3>
+          <p class="product-card__price">P 250</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="tshirt-golf" data-name="Golf T-Shirt" data-price="250" data-img="images/gofl t-shirt.jpg" data-category="T-Shirt">
+        <div class="product-card__img-wrap">
+          <img src="images/gofl t-shirt.jpg" alt="T-shirt 4" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Golf T-Shirt</h3>
+          <p class="product-card__price">P 250</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SWEATPANTS COLLECTION -->
+  <section class="collection">
+    <div class="collection__header">
+      <h2 class="section-title">SWEATPANTS</h2>
+    </div>
+    <div class="collections__grid">
+      <article class="product-card" data-id="sweatpants-black" data-name="Classic Black Sweatpants" data-price="300" data-img="images/black sweatpants.jpg" data-category="Sweatpants">
+        <div class="product-card__img-wrap">
+          <img src="images/black sweatpants.jpg" alt="Sweatpants 1" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Classic Black Sweatpants</h3>
+          <p class="product-card__price">P 300</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="sweatpants-jogger" data-name="Jogger Sweatpants" data-price="300" data-img="images/closed sweatpants.jpeg" data-category="Sweatpants">
+        <div class="product-card__img-wrap">
+          <img src="images/closed sweatpants.jpeg" alt="Sweatpants 2" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Jogger Sweatpants</h3>
+          <p class="product-card__price">P 300</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="sweatpants-graphic" data-name="Graphic Sweatpants" data-price="300" data-img="images/black white sweatpants.jpeg" data-category="Sweatpants">
+        <div class="product-card__img-wrap">
+          <img src="images/black white sweatpants.jpeg" alt="Sweatpants 3" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Graphic Sweatpants</h3>
+          <p class="product-card__price">P 300</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="sweatpants-grey" data-name="Classic Grey Sweatpants" data-price="300" data-img="images/grey closed sweatpants.jpeg" data-category="Sweatpants">
+        <div class="product-card__img-wrap">
+          <img src="images/grey closed sweatpants.jpeg" alt="Sweatpants 4" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Classic Grey Sweatpants</h3>
+          <p class="product-card__price">P 300</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SHOES COLLECTION -->
+  <section class="collection">
+    <div class="collection__header">
+      <h2 class="section-title">SHOES</h2>
+    </div>
+    <div class="collections__grid">
+      <article class="product-card" data-id="shoes-running" data-name="Running Shoes" data-price="500" data-img="images/running shoes.jpeg" data-category="Shoes">
+        <div class="product-card__img-wrap">
+          <img src="images/running shoes.jpeg" alt="Shoes 1" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Running Shoes</h3>
+          <p class="product-card__price">P 500</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="shoes-slides" data-name="Slides" data-price="700" data-img="images/slides shoes.jpeg" data-category="Shoes">
+        <div class="product-card__img-wrap">
+          <img src="images/slides shoes.jpeg" alt="Shoes 2" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Slides</h3>
+          <p class="product-card__price">P 700</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="shoes-hightops" data-name="High Tops" data-price="500" data-img="images/heels shoes.jpeg" data-category="Shoes">
+        <div class="product-card__img-wrap">
+          <img src="images/heels shoes.jpeg" alt="Shoes 3" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">High Tops</h3>
+          <p class="product-card__price">P 500</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="shoes-leather" data-name="Leather Shoes" data-price="500" data-img="images/formal shoes.jpeg" data-category="Shoes">
+        <div class="product-card__img-wrap">
+          <img src="images/formal shoes.jpeg" alt="Shoes 4" class="product-card__img">
+        </div>
+        <div class="product-card__info">
+          <h3 class="product-card__name">Leather Shoes</h3>
+          <p class="product-card__price">P 500</p>
+          <button class="btn btn--red add-to-cart-btn">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2 class="section-title">DISCOVER MALIN</h2>
+    <p class="about__text">Premium quality streetwear designed for comfort and style. Every piece in our collection is carefully curated to ensure you look and feel your best.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__grid">
+
+      <div class="footer__brand">
+        <h3 class="footer__logo">Malin</h3>
+        <p class="footer__desc">Comfort is our main priority for you</p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Collections</h4>
+        <ul class="footer__links">
+          <li><a href="collection.html" class="footer__link">Hoodies</a></li>
+          <li><a href="collection.html" class="footer__link">T-shirts</a></li>
+          <li><a href="collection.html" class="footer__link">Sweatpants</a></li>
+          <li><a href="collection.html" class="footer__link">Shoes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Help</h4>
+        <ul class="footer__links">
+          <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__newsletter">
+        <h4 class="footer__heading">Stay Updated</h4>
+        <p class="footer__desc">Drop alerts straight to your inbox.</p>
+        <div class="footer__form">
+          <input type="email" placeholder="Your email" class="footer__input">
+          <button class="btn btn--red">JOIN</button>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer__copy">&copy; 2026 Malin. All Rights Reserved.</p>
+  </footer>
+  <script>
+    // ── Cart Utilities ──────────────────────────────────────────────
+    function getCart() {
+      return JSON.parse(localStorage.getItem('malin_cart') || '[]');
+    }
+    function saveCart(cart) {
+      localStorage.setItem('malin_cart', JSON.stringify(cart));
+    }
+    function getTotalItems(cart) {
+      return cart.reduce((sum, item) => sum + item.qty, 0);
+    }
+
+    // ── Badge Update ────────────────────────────────────────────────
+    function updateBadge() {
+      const cart = getCart();
+      const total = getTotalItems(cart);
+      const badge = document.getElementById('cartCount');
+      if (badge) {
+        badge.textContent = total;
+        badge.style.display = total > 0 ? 'flex' : 'none';
+      }
+    }
+
+    // ── Add to Cart ─────────────────────────────────────────────────
+    document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
+      btn.addEventListener('click', function () {
+        const card = this.closest('.product-card');
+        const id    = card.dataset.id;
+        const name  = card.dataset.name;
+        const price = parseInt(card.dataset.price);
+        const img   = card.dataset.img;
+        const cat   = card.dataset.category;
+
+        const cart = getCart();
+        const existing = cart.find(i => i.id === id);
+        if (existing) {
+          existing.qty += 1;
+        } else {
+          cart.push({ id, name, price, img, category: cat, qty: 1 });
+        }
+        saveCart(cart);
+        updateBadge();
+
+        // Visual feedback
+        this.textContent = '✓ Added';
+        this.classList.add('btn--added');
+        setTimeout(() => {
+          this.textContent = 'Add to Cart';
+          this.classList.remove('btn--added');
+        }, 1500);
+      });
+    });
+
+    // Init badge on page load
+    updateBadge();
+  </script>
+</body>
